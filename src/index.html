@@ -1,13 +1,349 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Title</title>
-    <link rel="stylesheet" href="./styles/main.scss">
-  </head>
-  <body>
-    <h1>Hello Mate Academy</h1>
-    <script type="text/javascript" src="scripts/main.js"></script>
-  </body>
+<html lang="en" class="page">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@40,600,1,0" />
+  <link rel="stylesheet" href="./css/main.css">
+  <script src="https://kit.fontawesome.com/b89b2a4070.js" crossorigin="anonymous"></script>
+  <title>Portfolio</title>
+</head>
+<body class="page">
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <a href="/" class="logo" id="logo">VB<span class="logo-period period"> .</span></a>
+
+        <ul class="nav-right">
+          <li class="nav-right__item"><a href="#about" class="nav-right__link">About</a></li>
+          <li class="nav-right__item"><a href="#skills" class="nav-right__link">Skills</a></li>
+          <li class="nav-right__item"><a href="#Portfolio" class="nav-right__link">Portfolio</a></li>
+          <li class="nav-right__item"><a href="#contacts" class="nav-right__link">Contacts</a></li>
+        </ul>
+
+        <!-- burger menu -->
+        <a type="menu" class="burger-icon"> <i class="fa-solid fa-bars"></i></a>
+
+        <div class="burger">
+          <button class="close"> <i class="fa-solid fa-circle-xmark" class="close-icon"></i></button>
+
+          <ul class="burger-nav">
+            <li class="nav-right__item"><a href="#about" class="nav-right__link">About</a></li>
+            <li class="nav-right__item"><a href="#skills" class="nav-right__link">Skills</a></li>
+            <li class="nav-right__item"><a href="#Portfolio" class="nav-right__link">Portfolio</a></li>
+            <li class="nav-right__item"><a href="#contacts" class="nav-right__link">Contacts</a></li>
+          </ul>
+
+          <div class="contacts contacts-burger">
+
+            <a href="https://www.linkedin.com/in/vladyslava-buzova/" class="contacts__icon hero__icon" target="_blank">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+
+            <a href="https://www.facebook.com/profile.php?id=100083047789352" class="contacts__icon hero__icon" target="_blank">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+
+            <a href="https://github.com/vladyslava-buzova" class="contacts__icon hero__icon" target="_blank">
+              <i class="fa-brands fa-github"></i>
+            </a>
+
+            <a href="mailto:vladyslava.buzova@gmail.com" class="contacts__icon hero__icon email" target="_blank">
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+        <!-- burger menu -->
+      </nav>
+    </div>
+  </header>
+
+<!-- main -->
+  <main>
+    <section class="hero-section">
+      <div class="container">
+        <div class="hero">
+          <div class="hero__left">
+
+            <div class="contacts-hero">
+
+              <a href="https://www.linkedin.com/in/vladyslava-buzova/" class="contacts__icon hero__icon linkedin" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+
+              <a href="https://www.facebook.com/profile.php?id=100083047789352" class="contacts__icon hero__icon facebook" target="_blank">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+
+              <a href="https://github.com/vladyslava-buzova" class="contacts__icon hero__icon github" target="_blank">
+                <i class="fa-brands fa-github"></i>
+              </a>
+
+              <a href="mailto:vladyslava.buzova@gmail.com" class="contacts__icon hero__icon email" target="_blank">
+                <i class="fa-solid fa-envelope"></i>
+              </a>
+            </div>
+
+            <div class="hero-wrapp">
+              <h1 class="hero-title">Hi, I am Vlada! <br>
+                Front End Developer</h1>
+
+              <a
+                href="./data/VLADA_BUZOVA [FRONT-END DEVELOPER].pdf" class="btn"
+                download>
+                Download Resume
+              </a>
+
+              <div class="scroll-down">
+                <i class="fa-duotone fa-computer-mouse-scrollwheel"></i>
+                <a href="#about" class="scroll-down__link">Scroll down</a>
+                <i class="fa-solid fa-arrow-down scroll-down__icon"></i>
+              </div>
+            </div>
+          </div>
+
+            <div class="hero__right"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-section" id="about">
+      <div class="container">
+
+          <h2 class="about__title title-secondary">About</h2>
+
+          <p class="about__text">
+            Hey, I'm Vlada! I'm a Front-End Web Developer with a year of practice.
+            I have good practical skills in creating semantic, adaptive, and SEO-optimized layouts.
+            My customer support background enhanced my problem-solving and communication skills. I have a great level of responsibility, a strong passion for technology, and an interest in learning new things. Attentive to details.
+            Worked mainly with HTML5 / CSS3, Sass(SCSS), JavaScript (ES5-ES6), Typescript, and React.
+            Also got experience working with NPM, Git/Github, API, UX/UI, and Figma.
+            Eager to improve my developer skills and ready to learn new frameworks (Vue/Angular/React Native).
+          </p>
+
+          <p>
+            My Portfolio can be viewed in the
+            <span class="about-span">
+              <a href="#Portfolio">Portfolio</a>
+            </span> section.
+          </p>
+
+      </div>
+    </section>
+
+    <section class="skills-section" id="skills">
+      <div class="container">
+        <h2 class="title-secondary">Skills</h2>
+        <div class="grid-container">
+          <ul class="grid-item">
+            <li class="skills__item">
+              <span class="material-symbols-outlined skills-boolets">
+              code
+              </span>React JS</li>
+            <li class="skills__item">
+              <span class="material-symbols-outlined skills-boolets">
+              code
+              </span>JavaScript(ES6)</li>
+            <li class="skills__item">
+              <span class="material-symbols-outlined skills-boolets">
+              code
+              </span>TypeScript</li>
+            <li class="skills__item">
+              <span class="material-symbols-outlined skills-boolets">
+              code
+              </span>Redux</li>
+            <li class="skills__item">
+              <span class="material-symbols-outlined skills-boolets">
+              code
+              </span>HTML 5</li>
+          </ul>
+
+          <ul class="skills__list grid-item">
+            <li class="skills__item">
+              <span class="material-symbols-outlined skills-boolets">
+              code
+              </span>CSS 3</li>
+            <li class="skills__item">
+              <span class="material-symbols-outlined skills-boolets">
+              code
+              </span>Sass (SCSS)</li>
+            <li class="skills__item">
+              <span class="material-symbols-outlined skills-boolets">
+              code
+              </span>BEM</li>
+            <li class="skills__item">
+              <span class="material-symbols-outlined skills-boolets">
+              code
+              </span>NPM</li>
+            <li class="skills__item">
+              <span class="material-symbols-outlined skills-boolets">
+              code
+              </span>Git/Github</li>
+          </ul>
+
+          <ul class="skills__list grid-item">
+            <li class="skills__item">
+              <span class="material-symbols-outlined skills-boolets">
+              code
+              </span>Bootstrap</li>
+            <li class="skills__item">
+              <span class="material-symbols-outlined skills-boolets">
+              code
+              </span>Bulma</li>
+            <li class="skills__item">
+              <span class="material-symbols-outlined skills-boolets">
+              code
+              </span>Figma</li>
+            <li class="skills__item">
+              <span class="material-symbols-outlined skills-boolets">
+              code
+              </span>Chrome Dev Tools</li>
+            <li class="skills__item">
+              <span class="material-symbols-outlined skills-boolets">
+              code
+              </span>WEB</li>
+          </ul>
+
+          <ul class="skills__list grid-item">
+            <li class="skills__item">
+              <span class="material-symbols-outlined skills-boolets">
+              code
+              </span>AJAX</li>
+            <li class="skills__item">
+              <span class="material-symbols-outlined skills-boolets">
+              code
+              </span>Fetch</li>
+            <li class="skills__item">
+              <span class="material-symbols-outlined skills-boolets">
+              code
+              </span>REST API</li>
+            <li class="skills__item">
+              <span class="material-symbols-outlined skills-boolets">
+              code
+              </span>SQL(basic)</li>
+            <li class="skills__item">
+              <span class="material-symbols-outlined skills-boolets">
+              code
+              </span>OOP(basic)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="Portfolio" class="portfolio-section">
+      <div class="container">
+        <h2 class="title-secondary">Portfolio</h2>
+        <div class="portfolio-wrap">
+          <div class="card">
+            <a href="https://vladyslava-buzova.github.io/backery-lending/" target="_blank">
+              <img src="./images/Backery.png" alt="" class="card__img">
+            </a>
+
+            <h3 class="card__title">Creative Bakery</h3>
+            <p class="card__text">
+              SEO optimized landing page 'Creative Bakery' with an adaptive    design. The website can be viewed on any device. Implemented hamburger menu, and responsive gallery.
+            </p>
+            <p class="card__technologies">HTML, CSS, Sass (SCSS), BEM</p>
+            <a href="https://vladyslava-buzova.github.io/backery-lending/" class="card__link" target="_blank">Demo</a>
+            <a href="https://github.com/vladyslava-buzova/backery-lending/tree/develop" class="card__link" target="_blank">GitHub</a>
+          </div>
+
+          <div class="card">
+            <a href="https://vladyslava-buzova.github.io/backery-lending/" target="_blank">
+              <img src="./images/eco.png" alt="" class="card__img">
+            </a>
+
+            <h3 class="card__title">Eco cosmetics</h3>
+            <p class="card__text">
+              SEO optimized landing page 'Eco cosmetics with an adaptive design. The website can be viewed on any device. Implemented hamburger menu, responsive gallery, tabs, and form validation.
+            </p>
+            <p class="card__technologies">JS, HTML, CSS, Sass (SCSS), BEM</p>
+            <a href="https://vladyslava-buzova.github.io/Eco-cosmetics/" class="card__link" target="_blank">Demo</a>
+            <a href="https://github.com/vladyslava-buzova/Eco-cosmetics" class="card__link" target="_blank">GitHub</a>
+          </div>
+
+          <div class="card">
+            <a href="https://vladyslava-buzova.github.io/backery-lending/" target="_blank">
+              <img src="./images/Boss.png" alt="" class="card__img">
+            </a>
+
+            <h3 class="card__title">Boss</h3>
+            <p class="card__text">
+              SEO optimized landing page 'Boss' with an adaptive design. The website can be viewed on any device. Implemented hamburger menu, and responsive gallery.
+            </p>
+            <p class="card__technologies">HTML, CSS, Sass (SCSS), BEM, Grid</p>
+            <a href="https://vladyslava-buzova.github.io/boss-landing/" class="card__link" target="_blank">Demo</a>
+            <a href="https://github.com/vladyslava-buzova/boss-landing/tree/develop" class="card__link" target="_blank">GitHub</a>
+          </div>
+
+          <div class="card">
+            <a href="https://vladyslava-buzova.github.io/game_js_2048/" target="_blank">
+              <img src="./images/game.png" alt="game2048" class="card__img">
+            </a>
+
+            <h3 class="card__title">Game 2048</h3>
+            <p class="card__text">
+              Game 2048 is written in pure JavaScript.
+              In this game you need to combine numbered tiles in order to gain a higher numbered tile. You need to merge equal cells with keyboard arrows until you get 2048.
+            </p>
+            <p class="card__technologies">HTML, CSS, Sass (SCSS), BEM, Grid</p>
+            <a href="https://vladyslava-buzova.github.io/game_js_2048/" class="card__link" target="_blank">Demo</a>
+            <a href="https://github.com/vladyslava-buzova/game_js_2048" class="card__link" target="_blank">GitHub</a>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section class="contactme-section" id="contactme">
+      <div class="container">
+        <h2 class="contactme__title">Contacts</h2>
+        <p class="contactme__text">
+          Please feel free to send me a message to my e-mail vladyslava.buzova@gmail.com or connect with me on social media.  I will get back to you as soon as possible
+        </p>
+        <h3 class="title-secondary footer__title">
+          Let's make something great together! :)
+        </h3>
+      </div>
+    </section>
+
+  </main>
+  <!-- footer -->
+  <footer class="footer" id="contacts">
+    <div class="container">
+      <a href="#logo" class="scroll-up"><i class="fa-solid fa-arrow-up-long"></i></a>
+
+      <div class="contacts footer__contacts">
+
+        <a href="https://www.linkedin.com/in/vladyslava-buzova/" class="contacts__icon linkedin" target="_blank">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+
+        <a href="https://www.facebook.com/profile.php?id=100083047789352" class="contacts__icon facebook" target="_blank">
+          <i class="fa-brands fa-facebook-f"></i>
+        </a>
+
+        <a href="https://github.com/vladyslava-buzova" class="contacts__icon github" target="_blank">
+          <i class="fa-brands fa-github"></i>
+        </a>
+
+        <a href="mailto:vladyslava.buzova@gmail.com" class="contacts__icon email" target="_blank">
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+
+      </div>
+      <span class="footer__devider"></span>
+      <p class="footer__text">
+        &copy;2023 - Developed with
+        <span class="material-symbols-outlined footer__icon"> favorite </span>
+        by Vladyslava Buzova
+      </p>
+    </div>
+  </footer>
+
+  <script src="./js/main.js"></script>
+</body>
 </html>
