@@ -1,14 +1,15 @@
 # Personal Portfolio
-SEO optimized landing page 'Creative Bakery'.
 - [DEMO LINK](https://vladyslava-buzova.github.io/portfolio/)
 
 # Implemented features:
 1. Hamburger menu.
-2. Responsive gallery.
+2. Responsive cards with projects.
+2. Responsive icons.
 3. Page is adaptive for different screens.
 4. Clickable links lead to the corresponding blocks of the page.
 5. Favicon.
-6. The phone number and mail are clickable and when clicked, the browser offers to call the specified number or write a letter to the specified mail.
+6. The phone number and mail are clickable and when clicked, the browser offers to call the specified number or write a letter to the specified mail
+7. Socia icons open the social media on a new page.
 
 # How to launch a project:
 1. Clone the repo.
