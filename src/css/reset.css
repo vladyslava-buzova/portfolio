@@ -1,0 +1,103 @@
+/* Common breakpoint sizes:
+320px — 480px: Mobile devices
+481px — 600px:
+501px — 768px: iPads, Tablets
+769px — 992px: iPads, Tablets
+992px — 1024px: Small screens, laptops
+1025px — 1200px: Desktops, large screens
+1201px and more — Extra large screens, TV * this one is not always used.  */
+
+/* Change autocomplete styles in WebKit */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border-bottom: 1px solid #828282;
+  -webkit-text-fill-color: #828282;
+  -webkit-box-shadow: 0 0 0px 1000px #E4DFD3 inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.page {
+  scroll-behavior: smooth;
+}
+
+.page, .home-page {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+h1, h2, h3, h4, h5, h6, p, ::before, ::after, p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color:inherit;
+}
+
+ul, li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.button {
+  padding: 0;
+  border: none;
+  outline: none;
+  font: inherit;
+  color: inherit;
+  background: none
+}
+
+/* --- btn --- */
+
+.btn {
+  display: inline-block;
+  width: 100%;
+  width: 150px;
+  padding: 12px 0;
+  color: #fff;
+  background-color: #363636;
+  font-size: 12px;
+  text-align: center;
+  transition: all .5s ease-in-out;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  text-transform: capitalize;
+  font-weight: 300;
+}
+
+.btn:hover {
+  color: #363636;
+  background-color: transparent;
+  border: 1px solid black;
+}
+
+/* --- btn --- */
+
+.container {
+  padding: 0 15px;
+  max-width: 1231px;
+  min-width: 310px;
+  margin: 0 auto;
+  overflow: clip;
+}
+
